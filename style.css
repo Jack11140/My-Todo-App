@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e27680;
+}
+
+.app-container {
+    background-color: rgb(67, 172, 229);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+.app-container:hover {
+    background-color: rgb(31, 160, 230);
+    border-color: white;
+}
+
+
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+.createNewTodo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.text-and-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.text-and-buttons input {
+    height: 40px;
+    background-color: transparent;
+    margin-right: 10px;
+    border: none;
+}
+
+.text-and-buttons input:focus {
+    outline: none;
+    border-color: #3366cc;
+    box-shadow: 0 0 5px rgba(51, 102, 204, 0.7);
+}
+
+h1, h4 {
+    text-align: center;
+    margin: 10px;
+}
